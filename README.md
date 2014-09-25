@@ -15,14 +15,7 @@ Importantly, HiCat is focussed on analysis of larger structural features of chro
 <figure>
   <img src="https://raw.githubusercontent.com/MWSchmid/HiCat/master/figure1.png" alt="Schematic HiCat workflow">
   <figcaption>
-Schematic HiCat workflow. 
-(<strong>A-B</strong>) After sequencing and initial quality checks have been performed, the read-ends
-(f: forward, r: reverse) are aligned separately to a reference genome. (<strong>C-D</strong>) After 
-merging the separated read-ends, each end is mapped to genomic fragments, which are either genomic bins
-with a fixed size or restriction fragments with variable size. (<strong>E</strong>) Genomic fragments
-can be associated with various data types to test for correlation and enrichment of Hi-C data with genomic
-and epigenetic features. (<strong>F</strong>) Finally, the data can be conveniently analyzed in R using
-the provided script.
+Schematic HiCat workflow. (<strong>A-B</strong>) After sequencing and initial quality checks have been performed, the read-ends (f: forward, r: reverse) are aligned separately to a reference genome. (<strong>C-D</strong>) After  merging the separated read-ends, each end is mapped to genomic fragments, which are either genomic bins with a fixed size or restriction fragments with variable size. (<strong>E</strong>) Genomic fragments can be associated with various data types to test for correlation and enrichment of Hi-C data with genomic and epigenetic features. (<strong>F</strong>) Finally, the data can be conveniently analyzed in R using the provided script.
   </figcaption>
 </figure>
 
