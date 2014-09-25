@@ -3,7 +3,7 @@ HiCat
 
 a Hi-C data analysis tool
 
-This page is under construction (today is the 25th of September 2014). I will add an more detailed user-guide and the Windows7 and MacOSX binary soon.
+This page is under construction (today is the 25th of September 2014). I will add a more detailed user-guide and the Windows7 and MacOSX binary soon.
 
 At the moment available are the 64bit binary for (Ubuntu-like) linux, the R-code, and an Arabidopsis tutorial for the HiC data analysis in R (this is working on all platforms). I am working on a tutorial for the data pre-processing. For the tutorial in R, download the three archives below (right-click and "Save Link/Target As..."), unpack all of them, and open "HiCat-tutorial-arabidopsis.R" in a text editor and follow the instructions. Note that HiCat requires the R libraries "gplots" and "randomizeBE". You can install them with install.packages("gplots") and install.packages("randomizeBE").
 
