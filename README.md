@@ -13,7 +13,7 @@ Importantly, HiCat is focussed on analysis of larger structural features of chro
 
 
 <figure>
-  <img src="https://github.com/MWSchmid/HiCat/figure1.png" alt="Schematic HiCat workflow">
+  <img src="https://raw.githubusercontent.com/MWSchmid/HiCat/master/figure1.png" alt="Schematic HiCat workflow">
   <figcaption>
 Schematic HiCat workflow. 
 (<strong>A-B</strong>) After sequencing and initial quality checks have been performed, the read-ends
