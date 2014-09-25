@@ -1,5 +1,7 @@
-HiCat: Hi-C data analysis tool
+HiCat
 =========================
+
+Hi-C data analysis tool
 
 This page is under construction (today is the 25th of September 2014). I will add a more detailed user-guide and the Windows7 and MacOSX binary soon.
 
