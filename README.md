@@ -1,11 +1,22 @@
 HiCat
-=====
+=========================
 
 a Hi-C data analysis tool
 
-This page is under construction (today is the 25th of September 2014).
+This page is under construction (today is the 25th of September 2014). I will add an more detailed user-guide and the Windows7 and MacOSX binary soon.
 
-It will soon host a fast and easy-to-use GUI tool for Hi-C data pre-processing and functions and examples for Hi-C data analysis in R.
+At the moment available are the 64bit binary for (Ubuntu-like) linux, the R-code, and an Arabidopsis tutorial for the HiC data analysis in R (this is working on all platforms). I am working on a tutorial for the data pre-processing. For the tutorial in R, download the three archives below (right-click and "Save Link/Target As..."), unpack all of them, and open "HiCat-tutorial-arabidopsis.R" in a text editor and follow the instructions. Note that HiCat requires the R libraries "gplots" and "randomizeBE". You can install them with install.packages("gplots") and install.packages("randomizeBE").
+
+<a class="reference external" href="https://github.com/MWSchmid/HiCat/blob/master/linux_64bit.zip">linux 64bit binary</a>
+
+<a class="reference external" href="https://github.com/MWSchmid/HiCat/blob/master/Rscripts.zip">R-Scripts (including the tutorial file)</a>
+
+<a class="reference external" href="https://github.com/MWSchmid/HiCat/blob/master/At_tutorial_files.zip">files required for the tutorial</a>
+
+If you encounter problems, please contact me.
+
+=========================
+About HiCat:
 
 HiCat is an implementation of all data analysis approaches employed in <a class="reference external" href="http://www.sciencedirect.com/science/article/pii/S1097276514006029">Grob et al. 2014</a>.
 Importantly, HiCat is focussed on analysis of larger structural features of chromosomes and on comparative studies. 
