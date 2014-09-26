@@ -752,7 +752,7 @@ Pressing load, save, and close fragments may have no instant effect.</string>
           <item row="1" column="0">
            <widget class="QLabel" name="MAPREADSlabel_2">
             <property name="text">
-             <string>matrix with read pairs (p503-merge):</string>
+             <string>matrix with read pairs:</string>
             </property>
             <property name="alignment">
              <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
