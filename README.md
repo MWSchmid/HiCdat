@@ -7,9 +7,9 @@ At the moment available are the 64bit binary for (Ubuntu-like) linux, the R-code
 
 <a class="reference external" href="https://github.com/MWSchmid/HiCat/blob/master/linux_64bit.zip?raw=true">linux 64bit binary</a>
 
-<a class="reference external" href="https://github.com/MWSchmid/HiCat/blob/master/Rscripts.zip?raw=true">R-Scripts (including the tutorial file)</a>
+<a class="reference external" href="https://github.com/MWSchmid/HiCat/blob/master/Rscripts.zip?raw=true">R-Scripts (including the R-tutorial script)</a>
 
-<a class="reference external" href="https://github.com/MWSchmid/HiCat/blob/master/At_tutorial_files.zip?raw=true">files required for the tutorial</a>
+<a class="reference external" href="https://github.com/MWSchmid/HiCat/blob/master/At_tutorial_files.zip?raw=true">files required for the tutorial in R</a>
 
 If you encounter problems, please contact me.
 
