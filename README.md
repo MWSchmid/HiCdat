@@ -1,9 +1,11 @@
 HiCat: Hi-C data analysis tool
 =========================
 
-This page is under construction (today is the 2nd of October 2014). I will add a more detailed user-guide and the MacOSX binary soon (Win7 binary is now up).
+This page is under construction. I will add a more detailed user-guide soon (today is the 3rd of October 2014).
 
-<a class="reference external" href="https://github.com/MWSchmid/HiCat/blob/master/windows_64bit.zip?raw=true">windows 64bit binary</a>
+<a class="reference external" href="https://github.com/MWSchmid/HiCat/blob/master/windows_64bit.zip?raw=true">windows 7 64bit binary</a>
+
+<a class="reference external" href="https://github.com/MWSchmid/HiCat/blob/master/mac_64bit.zip?raw=true">MacOSX (10.9) 64bit binary</a>
 
 <a class="reference external" href="https://github.com/MWSchmid/HiCat/blob/master/linux_64bit.zip?raw=true">linux 64bit binary</a>
 
