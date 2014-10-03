@@ -30,9 +30,11 @@ HEADERS  += widget.h\
 FORMS    += widget.ui
 
 # note that the mac specificity is not only due to mac but also due to Qt version 5... instead of 4...
+# and: the ifdef and ifndef statements did not work - currently I had to switch it manually under MaxOSX
 macx {
     QT += widgets
     LIBS += -lZ
     INCLUDEPATH +=  ../zlib-1.2.8 \
+                    ../
 }
 
