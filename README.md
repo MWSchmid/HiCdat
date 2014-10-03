@@ -9,7 +9,7 @@ This page is under construction. I will add a more detailed user-guide soon (tod
 
 <a class="reference external" href="https://github.com/MWSchmid/HiCat/blob/master/linux_64bit.zip?raw=true">linux 64bit binary</a>
 
-At the moment available are the 64bit binary for (Ubuntu-like) linux and Windows 7, the R-code, and an Arabidopsis tutorial for the HiC data analysis in R (this is working on all platforms). I am working on a tutorial for the data pre-processing. For the tutorial in R, download the archives below, unpack both of them, and open "HiCat-tutorial-arabidopsis.R" in a text editor and follow the instructions. Note that HiCat requires the R libraries "gplots" and "randomizeBE". You can install them with install.packages("gplots") and install.packages("randomizeBE").
+At the moment available are the 64bit binaries (above), the R-code, and an Arabidopsis tutorial for the HiC data analysis in R (this is working on all platforms). I am working on a tutorial for the data pre-processing. For the tutorial in R, download the archives below, unpack both of them, and open "HiCat-tutorial-arabidopsis.R" in a text editor and follow the instructions. Note that HiCat requires the R libraries "gplots" and "randomizeBE". You can install them with install.packages("gplots") and install.packages("randomizeBE").
 
 <a class="reference external" href="https://github.com/MWSchmid/HiCat/blob/master/Rscripts.zip?raw=true">R-Scripts (including the R-tutorial script)</a>
 
