@@ -3,7 +3,7 @@ HiCat: Hi-C data analysis tool
 
 User guide including a tutorial for data pre-processing:
 
-<a class="reference external" href="https://github.com/MWSchmid/HiCat/blob/master/userGuide.pdf?raw=true">User guide</a>
+<a class="reference external" href="https://github.com/MWSchmid/HiCat/blob/master/userGuide.pdf?raw=true">user guide</a>
 
 Binaries:
 
