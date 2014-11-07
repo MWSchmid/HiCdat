@@ -9,7 +9,7 @@ Binaries:
 
 <a class="reference external" href="https://github.com/MWSchmid/HiCat/blob/master/windows_64bit.zip?raw=true">windows 7 64bit binary</a>
 
-<a class="reference external" href="https://github.com/MWSchmid/HiCat/blob/master/mac_64bit.zip?raw=true">MacOSX (10.9) 64bit binary</a>
+<a class="reference external" href="https://github.com/MWSchmid/HiCat/blob/master/mac64bit.zip?raw=true">MacOSX (10.9) 64bit binary</a>
 
 <a class="reference external" href="https://github.com/MWSchmid/HiCat/blob/master/linux_64bit.zip?raw=true">linux 64bit binary</a>
 
