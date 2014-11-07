@@ -25,6 +25,8 @@ For the tutorial in R, download the archives below, unpack both of them, and ope
 
 If you encounter problems, please contact me.
 
+NOTE: On linux, GLIBC needs to be at least version 2.14. Biolinux6 has a lower version.
+
 =========================
 About HiCat:
 
