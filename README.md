@@ -19,6 +19,8 @@ Data for pre-processing tutorial:
 
 For the tutorial in R, download the archives below, unpack both of them, and open "HiCat-tutorial-arabidopsis.R" in a text editor and follow the instructions. Note that HiCat requires the R libraries "gplots" and "randomizeBE". You can install them with install.packages("gplots") and install.packages("randomizeBE").
 
+<a class="reference external" href="https://github.com/MWSchmid/HiCat/blob/master/HiCatR_0.99.0.tar.gz?raw=true">R-package</a>
+
 <a class="reference external" href="https://github.com/MWSchmid/HiCat/blob/master/Rscripts.zip?raw=true">R-Scripts (including the R-tutorial script)</a>
 
 <a class="reference external" href="https://github.com/MWSchmid/HiCat/blob/master/At_tutorial_files.zip?raw=true">files required for the tutorial in R</a>
