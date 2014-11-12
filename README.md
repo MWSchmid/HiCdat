@@ -17,7 +17,7 @@ Data for pre-processing tutorial:
 
 <a class="reference external" href="http://www.botinst.uzh.ch/static/HiCat/At_pre-process_tutorial.zip">pre-processing data (large!)</a>
 
-For the tutorial in R, download the archives below, unpack both of them, and open "HiCat-tutorial-arabidopsis.R" in a text editor and follow the instructions. Note that HiCat requires the R libraries "gplots", "randomizeBE", and "MASS". You can install them with install.packages("gplots"), install.packages("randomizeBE"), and install.packages("MASS"). The HiCat package HiCatR can be installed with install.packages("/path/to/HiCatR_0.99.0.tar.gz", repos=NULL).
+For the tutorial in R, download the archives below, unpack both of them, and open "HiCat-tutorial-arabidopsis.R" in a text editor and follow the instructions. Note that HiCat requires the R libraries "gplots", "randomizeBE", and "MASS". You can install them with install.packages("gplots"), install.packages("randomizeBE"), and install.packages("MASS"). The HiCat package HiCatR can be installed with install.packages("/path/to/HiCatR_0.99.0.tar.gz", repos=NULL, type = "source").
 
 <a class="reference external" href="https://github.com/MWSchmid/HiCat/blob/master/HiCatR_0.99.0.tar.gz?raw=true">R-package</a>
 
