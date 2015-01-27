@@ -9,7 +9,7 @@ Binaries (note that the MacOSX binary was built on 10.10.1 and in addition teste
 
 [windows 7 64bit binary](https://github.com/MWSchmid/HiCdat/blob/master/other/windows_64bit.zip?raw=true)
 
-[MacOSX 64bit binary](https://github.com/MWSchmid/HiCdat/blob/master/other/mac64_bit.zip?raw=true)
+[MacOSX 64bit binary](https://github.com/MWSchmid/HiCdat/blob/master/other/mac_64bit.zip?raw=true)
 
 [linux 64bit binary](https://github.com/MWSchmid/HiCdat/blob/master/other/linux_64bit.zip?raw=true)
 
