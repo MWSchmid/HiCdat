@@ -15,7 +15,7 @@ Binaries (note that the MacOSX binary was built on 10.10.1 and in addition teste
 
 Data for pre-processing tutorial:
 
-[pre-processing data (large!)](http://www.botinst.uzh.ch/static/HiCdat/At_pre-process_tutorial.zip)
+[pre-processing data (large!)](http://www.botinst.uzh.ch/static/HiCat/At_pre-process_tutorial.zip)
 
 For the tutorial in R, download the package and the archives below, unpack the two archives, and open "HiCdat-tutorial-arabidopsis.R" in a text editor and follow the instructions. Note that HiCdatR requires the R libraries "gplots", "randomizeBE", and "MASS". You can install them with install.packages("gplots"), install.packages("randomizeBE"), and install.packages("MASS"). The HiCdat package HiCdatR can be installed with install.packages("/path/to/HiCdatR_0.99.0.tar.gz", repos=NULL, type = "source").
 
