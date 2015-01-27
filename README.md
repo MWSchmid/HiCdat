@@ -5,11 +5,11 @@ User guide including a tutorial for data pre-processing:
 
 [user guide](https://github.com/MWSchmid/HiCdat/blob/master/other/userGuide.pdf?raw=true)
 
-Binaries:
+Binaries (note that the MacOSX binary was built on 10.10.1 and in addition tested on 10.8.5):
 
 [windows 7 64bit binary](https://github.com/MWSchmid/HiCdat/blob/master/other/windows_64bit.zip?raw=true)
 
-[MacOSX (10.9) 64bit binary](https://github.com/MWSchmid/HiCdat/blob/master/other/mac64_bit.zip?raw=true)
+[MacOSX 64bit binary](https://github.com/MWSchmid/HiCdat/blob/master/other/mac64_bit.zip?raw=true)
 
 [linux 64bit binary](https://github.com/MWSchmid/HiCdat/blob/master/other/linux_64bit.zip?raw=true)
 
