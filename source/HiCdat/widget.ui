@@ -50,13 +50,13 @@
           <property name="minimumSize">
            <size>
             <width>0</width>
-            <height>350</height>
+            <height>400</height>
            </size>
           </property>
           <property name="text">
-           <string>Welcome to HiCat:
+           <string>Welcome to HiCdatPre:
 
-     -merge reads:
+     -pair aligned reads:
        merge two bam files based on the read name.
 
      -create fragments:
@@ -71,7 +71,10 @@
      -create organism-specific R-code:
        create an R-source file containing basic genome information of your organism.
 
-Note:
+Notes:
+Fields asking for input are highlighted in green.
+Fields asking for the name of an output file are highlighted in orange.
+
 Behind the GUI, there is only one thread doing all the work. 
 Whatever you process, it will be added to the queue to the right.
 Especially for the &quot;add tracks to fragments&quot; part, this has some consequences:
@@ -166,7 +169,7 @@ Pressing load, save, and close fragments may have no instant effect.</string>
      </widget>
      <widget class="QWidget" name="mergeReadsTab">
       <attribute name="title">
-       <string>merge reads</string>
+       <string>pair aligned reads</string>
       </attribute>
       <layout class="QGridLayout" name="gridLayout_4">
        <item row="0" column="1">
@@ -227,7 +230,11 @@ Pressing load, save, and close fragments may have no instant effect.</string>
            </widget>
           </item>
           <item row="0" column="1">
-           <widget class="QLineEdit" name="MERGEr1_lineEdit"/>
+           <widget class="QLineEdit" name="MERGEr1_lineEdit">
+            <property name="autoFillBackground">
+             <bool>false</bool>
+            </property>
+           </widget>
           </item>
           <item row="0" column="2">
            <widget class="QPushButton" name="MERGEr1_find">
@@ -405,7 +412,7 @@ Pressing load, save, and close fragments may have no instant effect.</string>
              </size>
             </property>
             <property name="text">
-             <string>merge files</string>
+             <string>pair reads</string>
             </property>
            </widget>
           </item>

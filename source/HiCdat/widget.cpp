@@ -76,9 +76,25 @@ Widget::Widget(QWidget *parent) :
     connect(ui->CREATERCODEfasta_find, SIGNAL(clicked()), this, SLOT(CREATERCODEsearchFastaFile()));
     connect(ui->CREATERCODERfile_find, SIGNAL(clicked()), this, SLOT(CREATERCODEsearchRfile()));
     connect(ui->CREATERCODERUNcreateRfile, SIGNAL(clicked()), this, SLOT(CREATERCODEsendProcess()));
-
-
-
+    //! set field colors
+    QString outputfieldColor = "background-color: rgba(255, 230, 150, 150)";
+    QString inputfieldColor = "background-color: rgba(200, 255, 200, 150)";
+    ui->MERGEr1_lineEdit->setStyleSheet(inputfieldColor);
+    ui->MERGEr2_lineEdit->setStyleSheet(inputfieldColor);
+    ui->MERGEout_lineEdit->setStyleSheet(outputfieldColor);
+    //ui->MERGEnumReads_spinBox->setStyleSheet(inputfieldColor);
+    ui->CREATEFRAGMENTSresPat_lineEdit->setStyleSheet(inputfieldColor);
+    ui->CREATEFRAGMENTSfasta_lineEdit->setStyleSheet(inputfieldColor);
+    ui->CREATEFRAGMENTSfragList_lineEdit->setStyleSheet(outputfieldColor);
+    ui->MAPREADSfragList_lineEdit->setStyleSheet(inputfieldColor);
+    ui->MAPREADSpreMatrix_lineEdit->setStyleSheet(inputfieldColor);
+    ui->MAPREADSpostMatrix_lineEdit->setStyleSheet(outputfieldColor);
+    ui->MAPREADSreducedMatrix_lineEdit->setStyleSheet(outputfieldColor);
+    //ui->MAPREADSinwardCloseBox->setStyleSheet(inputfieldColor);
+    //ui->MAPREADSoutwardCloseBox->setStyleSheet(inputfieldColor);
+    ui->CREATERCODEresPat_lineEdit->setStyleSheet(inputfieldColor);
+    ui->CREATERCODEfasta_lineEdit->setStyleSheet(inputfieldColor);
+    ui->CREATERCODErFile_lineEdit->setStyleSheet(outputfieldColor);
 }
 
 Widget::~Widget()
