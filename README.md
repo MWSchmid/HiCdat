@@ -29,10 +29,10 @@ If you encounter problems, please contact me.
 
 NOTE: if you encounter problems installing one of the R packages (other than HiCdatR), try to install it via [Bioconductor](http://http://www.bioconductor.org/):
 
-'''R
+```R
 source("http://bioconductor.org/biocLite.R")
 biocLite("insertNameOfPackageHere")
-'''
+```
 
 NOTE: On linux, GLIBC needs to be at least version 2.14. Biolinux6 has a lower version.
 
