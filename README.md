@@ -17,7 +17,7 @@ Data for pre-processing tutorial:
 
 [pre-processing data (large!)](http://www.botinst.uzh.ch/static/HiCat/At_pre-process_tutorial.zip)
 
-For the tutorial in R, download the package and the archives below, unpack the two archives, and open "HiCdat-tutorial-arabidopsis.R" in a text editor and follow the instructions. Note that HiCdatR requires the R libraries "gplots", "randomizeBE", and "MASS". You can install them with install.packages("gplots"), install.packages("randomizeBE"), and install.packages("MASS"). The HiCdat package HiCdatR can be installed with install.packages("/path/to/HiCdatR_0.99.0.tar.gz", repos=NULL, type = "source").
+For the tutorial in R, download the package and the archives below, unpack the two archives, and open "HiCdat-tutorial-arabidopsis.R" in a text editor and follow the instructions. Note that HiCdatR requires the R libraries "gplots", "randomizeBE", "MASS", and "HiCseg". You can install them with install.packages("gplots"), install.packages("randomizeBE"), install.packages("MASS"), and install.packages("HiCdat"). The HiCdat package HiCdatR can be installed with install.packages("/path/to/HiCdatR_0.99.0.tar.gz", repos=NULL, type = "source").
 
 [R-package](https://github.com/MWSchmid/HiCdat/blob/master/other/HiCdatR_0.99.0.tar.gz?raw=true)
 
@@ -26,6 +26,13 @@ For the tutorial in R, download the package and the archives below, unpack the t
 [files required for the tutorial in R](https://github.com/MWSchmid/HiCdat/blob/master/other/At_tutorial_files.zip?raw=true)
 
 If you encounter problems, please contact me.
+
+NOTE: if you encounter problems installing one of the R packages (other than HiCdatR), try to install it via [Bioconductor](http://http://www.bioconductor.org/):
+
+'''R
+source("http://bioconductor.org/biocLite.R")
+biocLite("insertNameOfPackageHere")
+'''
 
 NOTE: On linux, GLIBC needs to be at least version 2.14. Biolinux6 has a lower version.
 
@@ -41,7 +48,7 @@ Importantly, HiCdat is focussed on analysis of larger structural features of chr
   <img src="https://raw.githubusercontent.com/MWSchmid/HiCdat/master/other/figure1.png" alt="Schematic HiCdat workflow">
   <figcaption>
   <strong>Schematic HiCdat workflow.</strong>
-(<strong>A-B</strong>) After sequencing and initial quality checks have been performed, the read-ends (f: forward, r: reverse) are aligned separately to a reference genome. (<strong>C-D</strong>) After  merging the separated read-ends, each end is mapped to genomic fragments, which are either genomic bins with a fixed size or restriction fragments with variable size. (<strong>E</strong>) Genomic fragments can be associated with various data types to test for correlation and enrichment of Hi-C data with genomic and epigenetic features. (<strong>F</strong>) Finally, the data can be conveniently analyzed in R using HiCdatR.
+(<strong>A-B</strong>) After sequencing and initial quality checks have been performed, the read-ends (f: forward, r: reverse) are aligned separately to a reference genome. (<strong>C-D</strong>) After pairing the separately aligned read-ends, each end is mapped to genomic fragments, which are either genomic bins with a fixed size or restriction fragments with variable size. (<strong>E</strong>) Genomic fragments can be associated with various data types to test for correlation and enrichment of Hi-C data with genomic and epigenetic features. (<strong>F</strong>) Finally, the data can be conveniently analyzed in R using HiCdatR.
   </figcaption>
 </figure>
 
