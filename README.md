@@ -31,7 +31,7 @@ For the tutorial in R, download the package and the archives below, unpack the t
 
 If you encounter problems, please contact me.
 
-NOTE: if you encounter problems installing one of the R packages (other than HiCdatR), try to install it via [Bioconductor](http://http://www.bioconductor.org/):
+NOTE: if you encounter problems installing one of the R packages (other than HiCdatR), try to install it via [Bioconductor](http://www.bioconductor.org/):
 
 ```R
 source("http://bioconductor.org/biocLite.R")
@@ -40,7 +40,7 @@ biocLite("insertNameOfPackageHere")
 
 NOTE: On linux, GLIBC needs to be at least version 2.14. Biolinux6 has a lower version.
 
-NOTE: [Ay and Noble (2015)](dx.doi.org/10.1186/s13059-015-0745-7) list Subread as aligner for HiCdat in their table. While we do use Subread in the Tutorial, we also mention that any other aligner should in principle work with HiCdat. The only requirement is that the aligned reads are in BAM format. For Bowtie2, this can for example done directly with:
+NOTE: [Ay and Noble (2015)](doi:10.1186/s13059-015-0745-7) list Subread as aligner for HiCdat in their table. While we do use Subread in the Tutorial, we also mention that any other aligner should in principle work with HiCdat. The only requirement is that the aligned reads are in BAM format. For Bowtie2, this can for example done directly with:
 
 ```bash
 bowtie2 --no-unal -x myIndex -U sample.fastq.gz | samtools view -q 10 -h -b - > sample_minQ_10.bam
