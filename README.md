@@ -44,7 +44,8 @@ NOTE: [Ay and Noble (2015)](dx.doi.org/10.1186/s13059-015-0745-7) list Subread a
 
 ```bash
 bowtie2 --no-unal -x myIndex -U sample.fastq.gz | samtools view -q 10 -h -b - > sample_minQ_10.bam
-# -q 10 means that only alignments with a minimal quality of 10 are kept. That should remove all "non-unique" alignments.
+# -q 10 means that only alignments with a minimal quality of 10 are kept
+# this should be sufficient to remove all "non-unique" alignments
 ```
 
 =========================
