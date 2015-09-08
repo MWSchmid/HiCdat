@@ -22,8 +22,13 @@ Data for pre-processing tutorial:
 [pre-processing data (reduced data set, ~5 Gb)](http://www.botinst.uzh.ch/static/HiCat/At_pre-process_tutorial_small.zip)
 
 
+For the tutorial in R, download the package and the archives below, unpack the two archives, and open "HiCdat-tutorial-arabidopsis.R" in a text editor and follow the instructions. The HiCdat package HiCdatR can be installed with install.packages("/path/to/HiCdatR_0.99.0.tar.gz", repos=NULL, type = "source"). Note that HiCdatR requires the R libraries "gplots", "randomizeBE", "MASS", and "HiCseg". You can install them with: 
 
-For the tutorial in R, download the package and the archives below, unpack the two archives, and open "HiCdat-tutorial-arabidopsis.R" in a text editor and follow the instructions. Note that HiCdatR requires the R libraries "gplots", "randomizeBE", "MASS", and "HiCseg". You can install them with install.packages("gplots"), install.packages("randomizeBE"), install.packages("MASS"), and install.packages("HiCdat"). The HiCdat package HiCdatR can be installed with install.packages("/path/to/HiCdatR_0.99.0.tar.gz", repos=NULL, type = "source").
+```R
+install.packages(c("gplots", "randomizeBE", "MASS"))
+source("http://bioconductor.org/biocLite.R")
+biocLite("HiCseg")
+```
 
 [R-package](https://github.com/MWSchmid/HiCdat/blob/master/other/HiCdatR_0.99.0.tar.gz?raw=true)
 
