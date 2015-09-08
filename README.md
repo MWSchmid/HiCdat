@@ -1,6 +1,8 @@
 HiCdat: Hi-C data analysis tool
 =========================
 
+[About HiCdat](http://dx.doi.org/10.1186/s12859-015-0678-x)
+
 User guide including a tutorial for data pre-processing:
 
 [user guide](https://github.com/MWSchmid/HiCdat/blob/master/other/userGuide.pdf?raw=true)
@@ -47,20 +49,3 @@ bowtie2 --no-unal -x myIndex -U sample.fastq.gz | samtools view -q 10 -h -b - > 
 # -q 10 means that only alignments with a minimal quality of 10 are kept
 # this should be sufficient to remove all "non-unique" alignments
 ```
-
-=========================
-About HiCdat:
-
-HiCdat is an implementation of all data analysis approaches employed in <a class="reference external" href="http://www.sciencedirect.com/science/article/pii/S1097276514006029">Grob et al. 2014</a>.
-Importantly, HiCdat is focussed on analysis of larger structural features of chromosomes and on comparative studies. 
-
-
-
-<figure>
-  <img src="https://raw.githubusercontent.com/MWSchmid/HiCdat/master/other/figure1.png" alt="Schematic HiCdat workflow">
-  <figcaption>
-  <strong>Schematic HiCdat workflow.</strong>
-(<strong>A-B</strong>) After sequencing and initial quality checks have been performed, the read-ends (f: forward, r: reverse) are aligned separately to a reference genome. (<strong>C-D</strong>) After pairing the separately aligned read-ends, each end is mapped to genomic fragments, which are either genomic bins with a fixed size or restriction fragments with variable size. (<strong>E</strong>) Genomic fragments can be associated with various data types to test for correlation and enrichment of Hi-C data with genomic and epigenetic features. (<strong>F</strong>) Finally, the data can be conveniently analyzed in R using HiCdatR.
-  </figcaption>
-</figure>
-
