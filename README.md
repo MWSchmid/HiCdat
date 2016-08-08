@@ -13,7 +13,7 @@ Binaries (note that the MacOSX binary was built on 10.10.1 and in addition teste
 
 [MacOSX 64bit binary](https://github.com/MWSchmid/HiCdat/blob/master/other/mac_64bit.zip?raw=true)
 
-[linux 64bit binary](https://github.com/MWSchmid/HiCdat/blob/master/other/linux_64bit.zip?raw=true)
+[linux 64bit binary](https://github.com/MWSchmid/HiCdat/blob/master/other/linux_64bit.zip?raw=true), IMPORTANT: install the Qt4 libraries: sudo apt-get install qt4-default
 
 Data for pre-processing tutorial:
 
