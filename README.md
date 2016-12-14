@@ -28,6 +28,8 @@ For the tutorial in R, download the package and the archives below, unpack the t
 install.packages(c("gplots", "randomizeBE", "MASS"))
 source("http://bioconductor.org/biocLite.R")
 biocLite("HiCseg")
+
+install.packages("/path/to/HiCdatR_0.99.0.tar.gz", repos=NULL, type = "source")
 ```
 
 [R-package](https://github.com/MWSchmid/HiCdat/blob/master/other/HiCdatR_0.99.0.tar.gz?raw=true)
