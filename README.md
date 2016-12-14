@@ -21,7 +21,12 @@ Data for pre-processing tutorial:
 
 [pre-processing data (reduced data set, ~5 Gb)](http://www.botinst.uzh.ch/static/HiCat/At_pre-process_tutorial_small.zip)
 
-**IMPORTANT:** The function for the correlated HiC interaction matrix is slightly different to the one we used in the original article on the [_KNOT_ in _Arabidopsis_](http://www.cell.com/molecular-cell/abstract/S1097-2765(14)00602-9). The color gradient is less bright and it is reverted: **yellow/orange means low/negative correlation and red means high/positive correlation.** My thanks to Dr. Syed Islamuddin Shah for reporting this difference.
+**IMPORTANT:** The function for the correlated HiC interaction matrix is slightly different to the one we used in the original article on the [_KNOT_ in _Arabidopsis_](http://www.cell.com/molecular-cell/abstract/S1097-2765(14)00602-9). The color gradient is less bright and it is reverted: **yellow/orange means low/negative correlation and red means high/positive correlation.** My thanks to Dr. Syed Islamuddin Shah for reporting this difference. You can check the "new" color gradient with:
+
+```R
+colorSet <- colorRampPalette(c("#ffeda0", "#feb24c", "#f03b20"), interpolate = "spline")(64)
+plot(c(1:64),rep(1,64),col = colorSet, type = 'h', lwd = 10)
+```
 
 For the tutorial in R, download the package and the archives below, unpack the two archives, and open "HiCdat-tutorial-arabidopsis.R" in a text editor and follow the instructions. The HiCdat package HiCdatR can be installed with install.packages("/path/to/HiCdatR_0.99.0.tar.gz", repos=NULL, type = "source"). Note that HiCdatR requires the R libraries "gplots", "randomizeBE", "MASS", and "HiCseg". You can install them with: 
 
