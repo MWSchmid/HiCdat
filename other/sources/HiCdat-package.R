@@ -786,6 +786,11 @@ f.load.one.sample <- function(dataDir, files, binSize, repetitions = 0, useLog =
 	for (file in files) {
 		cat(paste("loading ", file, "\n", sep = ''))
 		temp <- read.table(file.path(dataDir, file), sep = '\t', col.names = c("binA", "binB", "count"))
+		if ((min(temp$binA) < 1) | (min(temp$binB) < 1)) {
+		  cat("WARNING: detected bins with an ID below 1 - assuming 0 and adding 1!\n")
+		  temp$binA <- temp$binA+1
+		  temp$binB <- temp$binB+1
+		}
 		if (useLog) { toAdd <- out[cbind(temp$binA,temp$binB)] + log2(temp$count+1) }
 		else { toAdd <- out[cbind(temp$binA,temp$binB)] + temp$count }
 		out[cbind(temp$binA,temp$binB)] <- toAdd

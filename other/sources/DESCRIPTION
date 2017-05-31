@@ -1,0 +1,10 @@
+Package: HiCdatR
+Type: Package
+Title: HiC data analysis, focussed on analysis of larger structural features of chromosomes, their correlation to genetic and epigenetic features, and on comparative studies.
+Version: 0.99.0
+Date: 2014-11-12
+Author: Marc W. Schmid and Stefan Grob
+Maintainer: Marc W. Schmid <marcschmid@gmx.ch>
+Description: The functionalities include (i) various data normalizations, (ii) sample correlation matrices, (iii) data visualization, (iv) sample comparisons, (v) calculation of distance decay exponents, (vi) principle component analysis (PCA) including correlation of the first principle component to genomic and epigenetic features, (vii) test for increased interaction frequencies between genomic regions of interest compared to randomly sampled regions, and (viii) test for enrichment or depletion of genomic and epigenetic features within genomic regions of interest compared to randomly chosen regions. See github.com/MWSchmid/HiCdat for more detail and a GUI-tool for HiC data pre-processing.
+License: GPL-3
+Imports: randomizeBE, gplots, MASS, HiCseg
